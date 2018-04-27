@@ -3,9 +3,10 @@ package com.rocky.algorithm.sort;
 import java.util.Arrays;
 
 /**
+ * 冒泡排序
  * Created by rocky on 18/4/27.
  */
-public class Bubble implements Sorter{
+public class BubbleSorter implements Sorter{
     @Override
     public int[] sort(int[] origin) {
         int[] s = Arrays.copyOf(origin, origin.length);
@@ -20,6 +21,6 @@ public class Bubble implements Sorter{
     }
 
     public static void main(String[] args) {
-        Checker.check(new Bubble());
+        Checker.check(new BubbleSorter());
     }
 }
