@@ -3,6 +3,9 @@ package com.rocky.algorithm.leetcode;
 import java.util.ArrayList;
 import java.util.List;
 
+/**
+ * 这道题没做出来～～
+ */
 public class Solution5 {
     public String longestPalindrome(String s) {
         int[][] dp = new int[s.length()][s.length()];
