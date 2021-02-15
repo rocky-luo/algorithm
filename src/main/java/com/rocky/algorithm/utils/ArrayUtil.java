@@ -1,4 +1,4 @@
-package com.rocky.algorithm.sort;
+package com.rocky.algorithm.utils;
 
 import java.util.Arrays;
 
