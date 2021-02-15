@@ -23,9 +23,5 @@ public class Checker {
         int[] e = new int[]{1,4,6,7,9};
         int eIdx = searcher.search(e, 5);
         Assert.assertEquals(eIdx, -1);
-
-
-
-
     }
 }
