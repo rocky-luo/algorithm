@@ -24,6 +24,7 @@ public class QuickSorter implements Sorter {
 
     private int partition(int[] a, int p, int r) {
         int ref = a[r];
+        // i和i前面的数字都小于等于ref
         int i = p - 1;
         for (int j = p; j < r; j++) {
             if (a[j] <= ref) {
